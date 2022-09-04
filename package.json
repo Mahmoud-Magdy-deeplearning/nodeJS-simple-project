@@ -1,0 +1,26 @@
+{
+  "name": "simple_NodeJs",
+  "version": "1.0.0",
+  "description": "simple nodeJs web app for beginner or pro who want to discover about nodejs (considered as a start point",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "data:import": "node seederScript"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "MongoDB",
+    "Backend"
+  ],
+  "author": "Mahmoud Magdy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
